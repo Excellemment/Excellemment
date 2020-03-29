@@ -1,0 +1,464 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans.eot');
+    src: url('../font/OpenSans.eot?#iefix') format('embedded-opentype'),
+    url('../font/OpenSans.woff2') format('woff2'),
+    url('../font/OpenSans.woff') format('woff'),
+    url('../font/OpenSans.ttf') format('truetype'),
+    url('../font/OpenSans.svg#OpenSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Bold.woff2') format('woff2'),
+    url('../font/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Bold.woff2') format('woff2'),
+    url('../font/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans2';
+    src: url('../font/OpenSans-Light.woff2') format('woff2'),
+    url('../font/OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Semibold.woff2') format('woff2'),
+    url('../font/OpenSans-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    padding-top: 30px;
+    background-color: #24282f;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header .container:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header nav {
+    float: right;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav li a {
+    font-size: 13px;
+    font-family: 'Open Sans';
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 0 15px 32px;
+}
+
+header nav li:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #b5a263;
+    opacity: 0;
+    transition: 1.3s;
+}
+
+header nav li:hover:after {
+    opacity: 1;
+}
+
+.after_header_section_background {
+    background: url('../img/after_header_section_background_02.png');
+}
+
+.after_header_section_background .container {
+    padding: 70px 0;
+    color: white;
+}
+
+.after_header_section_background .container h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-family: 'Raleway';
+}
+
+.after_header_section_background .container p {
+    max-width: 625px;
+    font-size: 11px;
+    line-height: 16px;
+    font-family: 'Open Sans';
+}
+
+.main_section {
+    padding: 120px 55px 20px;
+}
+
+.main_section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    font-family: 'Raleway';
+}
+
+.main_section h2:after {
+    content: "";
+    display: block;
+    background-color: #b5a263;
+    height: 3px;
+    width: 60px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.main_section div {
+    margin-bottom: 30px;
+}
+
+.employee_info {
+    display: inline-block;
+    max-width: 247px;
+    margin: 0 40px;
+}
+
+.employee_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.employee_info img {
+    max-width: 100%;
+}
+
+.employee_info .foto {
+    margin-bottom: 22px;
+
+}
+
+.employee_info .foto p {
+    font-family: 'Open Sans';
+}
+
+.employee_name {
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.employee_position {
+    font-size: 11px;
+    color: #b5a263;
+    text-transform: capitalize;
+
+}
+
+.employee_description {
+    float: left;
+}
+
+.employee_contact {
+    font-family: 'Open Sans';
+    float: right;
+}
+
+.employee_contact a {
+    display: inline-block;
+    background-color: #dedede;
+    border-radius: 50%;
+    font-size: 14px;
+    color: white;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    transition: 0.7s;
+}
+
+.employee_contact a:hover {
+    background-color: #b5a263;
+}
+
+.show_all {
+    font-family: 'Open Sans';
+    border: black 1px solid;
+    border-radius: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    display: block;
+    max-width: 129px;
+    padding: 14px 0;
+    color: #24282f;
+    transition: 0.7s;
+}
+
+.show_all:hover {
+    border-color: #b5a263;
+    color: #b5a263;
+}
+
+.section_client_background {
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.section_client_background .container {
+    padding-top: 96px;
+}
+
+.client h2 {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+}
+
+.client h2:after {
+    content: "";
+    background: #24282f;
+    display: block;
+    height: 2px;
+    width: 66px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.our_client {
+    padding-top: 75px;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+
+.client_comment {
+    font-size: 11px;
+    word-spacing: 3px;;
+    font-family: 'Open Sans2';
+    max-width: 680px;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.name_client {
+    color: #c0b07c;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+
+}
+
+.client_position {
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 93px;
+    color: #000000;
+}
+
+.email {
+    display: block;
+    font-size: 11px;
+    font-family: 'Open Sans';
+    background: #2b2f35;
+    border: 1px solid #4b4f55;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #b5a263;
+    transition: 0.7s;
+}
+
+.email::placeholder {
+    color: #5b5f66;
+}
+
+.email:focus{
+    color: #b5a263;
+    border-color: #b5a263;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    font-size: 11px;
+    background: #2b2f35;
+    color: #62666d;
+    text-align: center;
+    border: 1px solid #4b4f55;
+    transition: 1.3s;
+    opacity: 1;
+    height: 30px;
+}
+
+.button:hover {
+    content: "";
+    background-color: #b5a263;
+    opacity: 1;
+    transition: 2s;
+    color: #eeeadc;
+}
+
+.footer_bottom_background {
+    background: #24282f;
+    padding: 16px 0;
+}
+
+.footer_bottom:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer_bottom {
+    max-width: 890px;
+    margin: auto;
+}
+
+.footer_bottom p {
+    font-size: 9px;
+    font-family: 'Open Sans';
+    float: left;
+    color: #62666d;
+}
+
+.footer_bottom_background .footer_bottom a {
+    display: inline-block;
+    height: 27px;
+    width: 27px;
+    line-height: 27px;
+    text-align: center;
+    color: #6e7279;
+    border: #565a61 solid 1px;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: 0.7s;
+}
+
+.footer_bottom_background .footer_bottom a:hover {
+    background: #b5a263;
+    color: white;
+}
+
+.footer_top {
+    max-width: 890px;
+    margin: auto;
+    font-family: 'Open Sans';
+}
+
+.footer_top h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.footer_top:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer_top_background {
+    background: #2b2f35;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.about_fapor {
+    font-size: 11px;
+    word-spacing: 3px;
+    max-width: 240px;
+    color: #62666d;
+    float: left;
+}
+
+.about_fapor h3 {
+    font-size: 11px;
+    color: #b5a263;
+    margin-bottom: 20px;
+}
+
+.contact_info {
+    margin-left: 135px;
+    max-width: 160px;
+    float: left;
+}
+
+.contact_info h3 {
+    font-size: 11px;
+    color: #b5a263;
+    margin-bottom: 20px;
+}
+
+.contact_info p {
+    word-spacing: 3px;
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: #62666d;
+    line-height: 15px;
+}
+
+.contact_info li {
+    line-height: 16px;
+    font-size: 11px;
+    color: #62666d;
+}
+
+.subscribe_to_our_newsletter {
+    min-width: 240px;
+    float: right;
+}
+
+.subscribe_to_our_newsletter h3 {
+    font-size: 11px;
+    color: #b5a263;
+    margin-bottom: 22px;
+}
+
+.footer_bottom_background .footer_bottom div {
+    float: right;
+}
